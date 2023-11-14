@@ -501,6 +501,7 @@ span {
 	flex-wrap: wrap;
 	column-gap: 10px;
 	row-gap: 25px;
+	max-width: 1020px;
 }
 .btn {
 	padding: 5px 15px;
@@ -576,6 +577,10 @@ span {
 }
 
 @media (max-width: 900px) {
+	.header{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
 	.header_nav {
 		display: none;
 	}
@@ -620,10 +625,23 @@ span {
 		font-size: 260%;
 		width: 80%;
 	}
+	.container{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
 }
 
 @media (max-width: 575px) {
+	.swiper_title{
+		width: 300px;
+		font-size: 170%;
+	}
+	
 }
 
 @media (max-width: 320px) {
+	.swiper_title{
+		display: none;
+	}
+
 }
